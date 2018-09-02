@@ -1,0 +1,105 @@
+/*-------------------------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
+body{
+  background-color:#F7F7F7;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.panel{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*index.php*/
+  /*Category Panel*/
+.single {
+    padding: 10px 15px;
+    margin-top: 0px;
+    background: #fcfcfc;
+    border: 1px solid #f0f0f0;
+}
+.single ul {
+    margin-bottom: 0;
+}
+.single li a {
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f3f0f0;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+}
+.single li a:hover {
+    color: #60B078;
+}
+
+  /*nav*/
+.navbar-doublerow > .navbar{
+	display: block;
+	padding: 0px auto;
+	margin: 0px auto;
+	min-height: 25px;
+}
+
+  /*Top Navbar*/
+.navbar-top {
+    background: #4D5061;
+    border-bottom: 4px solid #60B078;
+    color: #FFF;
+}
+
+.text-white{
+    color:#fff;
+}
+
+  /*Down nav*/
+.navbar-doublerow .navbar-down .navbar-brand {
+    /*navbar brand*/
+	padding: 0px auto;
+	float: left;
+	color: #60B078;
+	font-size: 30px;
+}
+.navbar-doublerow .navbar-down ul>li>a{
+    /*Menu items*/
+	font-size: 15px;
+	color: #000;
+}
+.navbar-doublerow .navbar-down ul>li>a:hover{
+    /*menu hover*/
+	border-bottom: 1px solid #000;
+	color: #000;
+}
+/*End of index.php*/
+
+
+
+/*uhome.php*/
+.box2 .head
+{
+  display:block;
+  padding:8px;
+  background-color:#428bca;
+}
+.box2 .head a
+{
+color:white;
+font-weight:bold;
+}
+.box2{
+	width: auto;
+	background-color:#fff;
+	display:block;
+}
+
+/*End of uhome.php*/
+
+
+/*forum.php*/
+.box{
+	border-bottom: 1px dotted black;
+	padding: 15px 10px 5px 40px;
+}
+/*End of forum.php*/
